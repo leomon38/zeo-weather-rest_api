@@ -1,0 +1,34 @@
+
+GET http://localhost:3000/weatherServices/
+Content-Type: text/plain
+
+###
+PATCH http://localhost:3000/weatherServices/checkIfDataCurrent
+Content-Type: application/json
+
+{}
+
+###
+DELETE http://localhost:3000/weatherServices/deleteWeatherData
+
+
+###
+POST http://localhost:3000/weatherServices/SyncWeatherData
+
+###
+POST http://localhost:3000/weatherServices/weatherSync
+Content-Type: application/json
+
+< ./weatherData.json
+
+### http://localhost:3000/weatherServices/getWeatherResult/{zipcode}/{days}
+###
+GET http://localhost:3000/weatherServices/getWeatherResult/02739/7
+Content-Type: application/json
+
+
+### http://localhost:3000/weatherServices/getWeatherResult/{zipcode}/{days}
+###
+GET http://localhost:3000/weatherServices/getWeatherResult/02739/3
+Content-Type: text/plain
+

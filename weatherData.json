@@ -1,0 +1,42 @@
+{
+    "zipcode": "02739",
+    "region": {
+      "city": "Mattapoisett",
+      "geopoint": [ 41.654776, -70.80087 ],
+      "state": "MA"
+    },
+    "data": [
+      {
+        "date": "Wednesday",
+        "startTime": "2021-12-30",
+        "isDaytime": true,
+        "temperature": "63 F",
+        "windInfo": "8 to 14 mph S",
+        "detailedForecast": "A chance of rain showers and patchy fog."
+      },
+      {
+        "date": "Wednesday Night",
+        "startTime": "2021-12-30",
+        "isDaytime": false,
+        "temperature": "41 F",
+        "windInfo": "8 mph S",
+        "detailedForecast": "Partly cloudy, with a low around 41. South wind around 8 mph."
+      },
+      {
+        "date": "Thursday",
+        "startTime": "2021-12-31",
+        "isDaytime": true,
+        "temperature": "63 F",
+        "windInfo": "8 to 14 mph S",
+        "detailedForecast": "A chance of rain showers and patchy fog."
+      },
+      {
+        "date": "Thursday Night",
+        "startTime": "2021-12-31",
+        "isDaytime": false,
+        "temperature": "41 F",
+        "windInfo": "8 mph S",
+        "detailedForecast": "Partly cloudy, with a low around 41. South wind around 8 mph."
+      }
+    ]
+  }

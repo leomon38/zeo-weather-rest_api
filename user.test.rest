@@ -1,0 +1,110 @@
+
+GET http://localhost:3000/userService
+
+###
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "02739"
+}
+
+###
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "01945"
+}
+
+###
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "02549"
+}
+
+###
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "02180"
+}
+
+###
+
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "02564"
+}
+
+###
+
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "02403"
+}
+
+###
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "02644"
+}
+
+###
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "01852"
+}
+
+###
+
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "01379"
+}
+
+###
+
+POST http://localhost:3000/userService/saveRegion
+Content-Type: application/json
+
+{
+    "username": "TestUser2",
+    "zipcode": "01102"
+}
+
+
+
+### http://localhost:3000/userService/getUserPrefWeather/{username}/{days}
+###
+GET http://localhost:3000/userService/getUserPrefWeather/TestUser2/1
+Content-Type: application/json
+
+### http://localhost:3000/userService/getUserPrefWeather/{username}/{days}
+###
+GET http://localhost:3000/userService/getUserPrefWeather/TestUser2/1
+Content-Type: text/plain
+
+

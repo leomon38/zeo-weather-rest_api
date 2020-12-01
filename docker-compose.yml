@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  weather_rest_app:
+    image: weather_rest_app
+    build: .
+    environment:
+      NODE_ENV: dev
+    ports:
+      - 3000:3000
+    volumes: 
+      - .:/usr/src/weatherapp
+  mongodbContainer:
+    image: mongo:latest
+    restart: on-failure
+    ports: 
+      - 27017:27017
+    volumes:
+      - data:/data/db
+
+volumes:
+  data:
