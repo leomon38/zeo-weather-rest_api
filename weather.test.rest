@@ -9,7 +9,7 @@ Content-Type: application/json
 {}
 
 ###
-DELETE http://localhost:3000/weatherServices/deleteWeatherData
+DELETE http://localhost:3000/weatherServices/WeatherData
 
 
 ###
@@ -21,14 +21,13 @@ Content-Type: application/json
 
 < ./weatherData.json
 
-### http://localhost:3000/weatherServices/getWeatherResult/{zipcode}/{days}
+### http://localhost:3000/weatherServices/WeatherResult/{zipcode}/{days}
 ###
-GET http://localhost:3000/weatherServices/getWeatherResult/02739/7
+GET http://localhost:3000/weatherServices/WeatherResult/01945/7
 Content-Type: application/json
 
 
-### http://localhost:3000/weatherServices/getWeatherResult/{zipcode}/{days}
+### http://localhost:3000/weatherServices/WeatherResult/{zipcode}/{days}
 ###
-GET http://localhost:3000/weatherServices/getWeatherResult/02739/3
+GET http://localhost:3000/weatherServices/WeatherResult/01945/3
 Content-Type: text/plain
-

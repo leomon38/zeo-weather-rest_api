@@ -19,8 +19,7 @@ router.get('/', (req, res) => {
  * Get result from DB
  * require zipcode and day out
  */
-router.get('/getWeatherResult/:zipcode/:days',  async (req, res) => {
- 
+router.get('/WeatherResult/:zipcode/:days',  async (req, res) => {    
     const { days, zipcode } = req.params;
     const isJson = req.headers['content-type'] == "application/json" ? true : false;  
 
@@ -177,7 +176,7 @@ router.post('/weatherSync', async(req, res) => {
  * Use this call before /weatherSync or /checkIfDataCurrent
  * 
  */
-router.delete('/deleteWeatherData', async (req, res) => {
+router.delete('/WeatherData', async (req, res) => {
     try {
         const weatherData = await Weather.deleteMany();
         const updateData = await UpdateInfo.deleteMany();

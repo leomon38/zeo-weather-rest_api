@@ -97,14 +97,14 @@ Content-Type: application/json
 
 
 
-### http://localhost:3000/userService/getUserPrefWeather/{username}/{days}
+### http://localhost:3000/userService/UserPrefWeather/{username}/{days}
 ###
-GET http://localhost:3000/userService/getUserPrefWeather/TestUser2/1
+GET http://localhost:3000/userService/UserPrefWeather/TestUser2/1
 Content-Type: application/json
 
-### http://localhost:3000/userService/getUserPrefWeather/{username}/{days}
+### http://localhost:3000/userService/UserPrefWeather/{username}/{days}
 ###
-GET http://localhost:3000/userService/getUserPrefWeather/TestUser2/1
+GET http://localhost:3000/userService/UserPrefWeather/TestUser2/1
 Content-Type: text/plain
 
 

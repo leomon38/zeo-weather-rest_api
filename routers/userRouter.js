@@ -61,7 +61,7 @@ router.post('/saveRegion', async (req, res) => {
 /**
  * Get Weather With User perference
  */
-router.get('/getUserPrefWeather/:username/:days', async (req, res) => { 
+router.get('/UserPrefWeather/:username/:days', async (req, res) => { 
     let params = req.params;   
     const isJson = req.headers['content-type'] == "application/json" ? true : false;          
     const {username, days} = params;
